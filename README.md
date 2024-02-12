@@ -25,10 +25,13 @@ Run the commands in schema.ddl file to create the keyspace and tables in Cassand
 
 ### API
 **_Clone the repository_**:
-    *git clone 
+    *git clone https://github.com/amannarayanshukla/talkshop-api-project
 
 **_Install dependencies_**:
     *npm install*
+
+Create a `.env` file in the root directory of the project and add the environment variables shared in the email for this project
+
 
 **_Build the application_**:
     *npm run build*
