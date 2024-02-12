@@ -107,3 +107,4 @@ Would use GCP, Reason: Since I have experience with GCP, and it provides a lot o
 2. Add a task queue for parallelizing the analysis computation.
 3.
 
+# talkshop-api-project
