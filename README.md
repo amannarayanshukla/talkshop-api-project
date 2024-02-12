@@ -110,4 +110,20 @@ Would use GCP, Reason: Since I have experience with GCP, and it provides a lot o
 2. Add a task queue for parallelizing the analysis computation.
 3.
 
-# talkshop-api-project
+# API CURL Commands
+## Create a post
+```bash
+curl --location 'http://localhost:3000/api/v1/posts' \
+--header 'Content-Type: application/json' \
+--data '{
+"post_id": "117",
+"user_id": "123",
+"text_content": "a a a a"
+}'
+```
+
+## Get a post analysis
+```bash
+curl --location 'http://localhost:3000/api/v1/posts/117/analysis' \
+--data ''
+```
